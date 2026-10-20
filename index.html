@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emoncloudmount</title>
+  <meta name="description" content="Information about Emoncloudmount, a personal setup for mounting Google Drive with rclone.">
+  <style>
+    :root { color-scheme: light dark; --accent: #4f7cff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif; }
+    header { padding: 3.5rem 1.25rem; background: linear-gradient(135deg, #14213d, #263f73); color: white; }
+    main { max-width: 850px; margin: auto; padding: 2rem 1.25rem 3rem; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; opacity: .8; }
+    h1 { margin: .4rem 0; font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.1; }
+    h2 { margin-top: 2rem; }
+    .card { border: 1px solid #8885; border-radius: 14px; padding: 1.1rem 1.25rem; margin: 1rem 0; }
+    a { color: var(--accent); }
+    header a { color: white; }
+    footer { border-top: 1px solid #8885; padding: 1.25rem; text-align: center; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Personal project</div>
+    <h1>Emoncloudmount</h1>
+    <p>A personal Windows setup using rclone to access Google Drive as a mounted drive.</p>
+  </header>
+  <main>
+    <h2>About this project</h2>
+    <p>Emoncloudmount is the name of a personal configuration project. It uses <a href="https://rclone.org/">rclone</a>, an independently maintained command-line program, to connect to cloud storage services such as Google Drive and make files available through a mounted drive on a computer.</p>
+
+    <div class="card">
+      <h2>What this project does</h2>
+      <ul>
+        <li>Helps its owner access their own cloud-storage files from a computer.</li>
+        <li>Uses Google's authorization flow to grant rclone the permissions selected during setup.</li>
+        <li>Does not provide a public file-sharing service or a service for other users.</li>
+      </ul>
+    </div>
+
+    <h2>Data and security</h2>
+    <p>This is a personal project, not a commercial cloud service. The project owner does not operate a separate Emoncloudmount server that collects users' Google Drive files. Google authorization and file access are handled by Google and the locally configured rclone application, according to the permissions granted and the software configuration. The owner should protect their computer and rclone configuration, which may contain sensitive authorization credentials.</p>
+    <p>For more information, read the <a href="./privacy.html">Privacy Policy</a>.</p>
+
+    <h2>Third-party software</h2>
+    <p>rclone is third-party software. Google Drive and Google OAuth are Google services, and their own terms and privacy policies apply to their services.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this personal project, contact the project owner at: <strong>REPLACE_WITH_YOUR_EMAIL</strong></p>
+    <p><em>Before publishing, replace the email placeholder with an email address you control.</em></p>
+  </main>
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
